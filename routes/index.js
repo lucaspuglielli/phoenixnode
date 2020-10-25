@@ -6,9 +6,9 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Phoenix' });
 });
 
-router.get('/azeroth', function(req, res, next) {
-  res.render('azeroth', { title: 'Azeroth Heroes' });
-});
+// router.get('/azeroth', function(req, res, next) {
+//   res.render('azeroth', { title: 'Azeroth Heroes' });
+// });
 
 router.get('/contato', function(req, res, next) {
   res.render('contato', { title: 'Contato' });
@@ -30,9 +30,9 @@ router.get('/eventos', function(req, res, next) {
   res.render('eventos', { title: 'Eventos' });
 });
 
-router.get('/frontline', function(req, res, next) {
-  res.render('frontline', { title: 'Frontline' });
-});
+// router.get('/frontline', function(req, res, next) {
+//   res.render('frontline', { title: 'Frontline' });
+// });
 
 router.get('/gogoboys', function(req, res, next) {
   res.render('gogoboys', { title: 'Gogoboys' });
@@ -54,13 +54,13 @@ router.get('/quem-somos', function(req, res, next) {
   res.render('quem-somos', { title: 'Quem Somos' });
 });
 
-router.get('/sindicato', function(req, res, next) {
-  res.render('sindicato', { title: 'Sindicato do Crime' });
-});
+// router.get('/sindicato', function(req, res, next) {
+//   res.render('sindicato', { title: 'Sindicato do Crime' });
+// });
 
-router.get('/template', function(req, res, next) {
-  res.render('template', { title: 'Template' });
-});
+// router.get('/template', function(req, res, next) {
+//   res.render('template', { title: 'Template' });
+// });
 
 router.get('/transmissoes', function(req, res, next) {
   res.render('transmissoes', { title: 'Transmissões' });
