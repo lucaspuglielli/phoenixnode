@@ -30,9 +30,9 @@ router.get('/eventos', function(req, res, next) {
   res.render('eventos', { title: 'Eventos' });
 });
 
-// router.get('/frontline', function(req, res, next) {
-//   res.render('frontline', { title: 'Frontline' });
-// });
+router.get('/fiscais', function(req, res, next) {
+  res.render('fiscais', { title: 'fiscais' });
+});
 
 router.get('/gogoboys', function(req, res, next) {
   res.render('gogoboys', { title: 'Gogoboys' });
