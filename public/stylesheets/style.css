@@ -796,6 +796,15 @@ ul li.item13 .bg {
     background-size: 1050px;
 }
 
+.imgcore2 {
+	width: 100%;
+	height: 200px;
+	background-image: url(/images/equipesbackground1.png);
+	background-size: 1050px;
+	background-position-y: -90px;
+	background-position-x: 70px;
+}
+
 .escurecerimagem {
     width: 100%;
     height: 100%;
