@@ -38,6 +38,10 @@ router.get('/gogoboys', function(req, res, next) {
   res.render('gogoboys', { title: 'Gogoboys' });
 });
 
+router.get('/feniquinha', function(req, res, next) {
+  res.render('feniquinha', { title: 'Feniquinha' });
+});
+
 router.get('/guildrun', function(req, res, next) {
   res.render('guildrun', { title: 'Guild Run' });
 });

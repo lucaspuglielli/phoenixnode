@@ -536,7 +536,7 @@ footer {
 ul.bossportraitlist {
     position: absolute;
     top: 0;
-    left: 3.5%;
+    left: 10.5%;
     margin: 0;
     padding: 0;
     width: 230px;
@@ -607,16 +607,6 @@ ul li.item10 {
 ul li.item11 {
     top: 0;
     left: 250%;
-}
-
-ul li.item12 {
-    bottom: 0;
-    left: 275%;
-}
-
-ul li.item13 {
-    top: 0;
-    left: 300%;
 }
 
 ul li .bg {
@@ -725,26 +715,6 @@ ul li.item10 .bg {
 }
 
 ul li.item11 .bg {
-    background: url(/images/boss11.png);
-    background-repeat: no-repeat;
-    background-size: 90px 90px;
-    position: absolute;
-    bottom: -8px;
-    left: -14px;
-    transform: rotate(-45deg) scale(1.7);
-}
-
-ul li.item12 .bg {
-    background: url(/images/boss12.png);
-    background-repeat: no-repeat;
-    background-size: 90px 90px;
-    position: absolute;
-    bottom: 0px;
-    left: -1px;
-    transform: rotate(-45deg) scale(1.3);
-}
-
-ul li.item13 .bg {
     transform: rotate(-45deg) scale(1.5);
     display: flex;
     align-items: center;
