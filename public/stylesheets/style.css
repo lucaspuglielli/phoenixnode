@@ -548,7 +548,7 @@ ul li.bossportrait {
     position: absolute;
     width: 80px;
     height: 80px;
-    background: #76462f;
+    background: #CF4225;
     transform: rotate(45deg);
     overflow: hidden;
     border-radius: 15px;
@@ -619,9 +619,9 @@ ul li.item1 .bg {
     background-repeat: no-repeat;
     background-size: 90px 90px;
     position: absolute;
-    bottom: -5px;
+    bottom: -15px;
     left: -25px;
-    transform: rotate(-45deg) scale(1.9);
+    transform: rotate(-45deg) scale(2.5);
 }
 
 ul li.item2 .bg {
@@ -629,9 +629,9 @@ ul li.item2 .bg {
     background-repeat: no-repeat;
     background-size: 90px 90px;
     position: absolute;
-    bottom: -5px;
-    left: -25px;
-    transform: rotate(-45deg) scale(1.9);
+    bottom: -35px;
+    left: 20px;
+    transform: rotate(-45deg) scale(4);
 }
 
 ul li.item3 .bg {
@@ -639,8 +639,8 @@ ul li.item3 .bg {
     background-repeat: no-repeat;
     background-size: 110px 110px;
     position: absolute;
-    bottom: -23px;
-    left: -40px;
+    bottom: -40px;
+    left: -5px;
     transform: rotate(-45deg) scale(2.5);
 }
 
@@ -649,9 +649,9 @@ ul li.item4 .bg {
     background-repeat: no-repeat;
     background-size: 110px 110px;
     position: absolute;
-    bottom: -20px;
+    bottom: -40px;
     left: -15px;
-    transform: rotate(-45deg) scale(1.9);
+    transform: rotate(-45deg) scale(2.5);
 }
 
 ul li.item5 .bg {
@@ -660,8 +660,8 @@ ul li.item5 .bg {
     background-size: 90px 90px;
     position: absolute;
     bottom: -18px;
-    left: -18px;
-    transform: rotate(-45deg) scale(1.9);
+    left: -08px;
+    transform: rotate(-45deg) scale(3);
 }
 
 ul li.item6 .bg {
@@ -669,9 +669,9 @@ ul li.item6 .bg {
     background-repeat: no-repeat;
     background-size: 85px 85px;
     position: absolute;
-    bottom: -14px;
-    left: -16px;
-    transform: rotate(-45deg) scale(1.9);
+    bottom: -40px;
+    left: 32px;
+    transform: rotate(-45deg) scale(3.5);
 }
 
 ul li.item7 .bg {
@@ -679,9 +679,9 @@ ul li.item7 .bg {
     background-repeat: no-repeat;
     background-size: 90px 90px;
     position: absolute;
-    bottom: -5px;
-    left: 0px;
-    transform: rotate(-45deg) scale(1.9);
+    bottom: -32px;
+    left: 17px;
+    transform: rotate(-45deg) scale(3.9);
 }
 
 ul li.item8 .bg {
@@ -689,9 +689,9 @@ ul li.item8 .bg {
     background-repeat: no-repeat;
     background-size: 90px 90px;
     position: absolute;
-    bottom: 15px;
+    bottom: -20px;
     left: -22px;
-    transform: rotate(-45deg) scale(1.9);
+    transform: rotate(-45deg) scale(3.5);
 }
 
 ul li.item9 .bg {
@@ -699,9 +699,9 @@ ul li.item9 .bg {
     background-repeat: no-repeat;
     background-size: 85px 85px;
     position: absolute;
-    bottom: 5px;
-    left: -15px;
-    transform: rotate(-45deg) scale(1.7);
+    bottom: -35px;
+    left: 15px;
+    transform: rotate(-45deg) scale(4);
 }
 
 ul li.item10 .bg {
@@ -709,9 +709,9 @@ ul li.item10 .bg {
     background-repeat: no-repeat;
     background-size: 90px 90px;
     position: absolute;
-    bottom: -10px;
+    bottom: -30px;
     left: -3px;
-    transform: rotate(-45deg) scale(2);
+    transform: rotate(-45deg) scale(4);
 }
 
 ul li.item11 .bg {
@@ -721,7 +721,7 @@ ul li.item11 .bg {
     justify-content: center;
     font-family: roboto;
     font-weight: 900;
-    color: rgb(202, 131, 0);
+    color: orange;
 }
 
 .coresbody {
@@ -1115,9 +1115,17 @@ ul li.item11 .bg {
 
 .iconecore6 {
     background-image: url(/images/feniquinha.png);
-    background-position-x: 450px;
-    background-position-y: 335px;
-    background-size: 650px;
+    background-position-x: -35px;
+    background-position-y: 5px;
+    background-size: 290px;
+}
+
+.iconecore7 {
+    background-image: url(/images/pwwipe.png);
+    background-position-x: 30px;
+    background-position-y: -0px;
+    background-size: 200px;
+    background-repeat: no-repeat;
 }
 
 .imgeventosmain {

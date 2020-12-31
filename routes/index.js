@@ -14,9 +14,9 @@ router.get('/contato', function(req, res, next) {
   res.render('contato', { title: 'Contato' });
 });
 
-router.get('/death', function(req, res, next) {
-  res.render('death', { title: 'Death and Darkness' });
-});
+// router.get('/death', function(req, res, next) {
+//   res.render('death', { title: 'Death and Darkness' });
+// });
 
 router.get('/encontro', function(req, res, next) {
   res.render('encontro', { title: 'Encontro da Phoenix' });
@@ -30,9 +30,9 @@ router.get('/eventos', function(req, res, next) {
   res.render('eventos', { title: 'Eventos' });
 });
 
-router.get('/fiscais', function(req, res, next) {
-  res.render('fiscais', { title: 'fiscais' });
-});
+// router.get('/fiscais', function(req, res, next) {
+//   res.render('fiscais', { title: 'fiscais' });
+// });
 
 router.get('/gogoboys', function(req, res, next) {
   res.render('gogoboys', { title: 'Gogoboys' });
@@ -56,6 +56,10 @@ router.get('/loktar', function(req, res, next) {
 
 router.get('/quem-somos', function(req, res, next) {
   res.render('quem-somos', { title: 'Quem Somos' });
+});
+
+router.get('/pwwipe', function(req, res, next) {
+  res.render('pwwipe', { title: 'Power Word: Wipe' });
 });
 
 // router.get('/sindicato', function(req, res, next) {
